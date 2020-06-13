@@ -1,0 +1,26 @@
+{
+  "name": "web_chatapp",
+  "version": "1.0.0",
+  "description": "A simple web based chat app made with socket.io (socket practice)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amartyaayushi2/web_chatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amartyaayushi2/web_chatApp/issues"
+  },
+  "homepage": "https://github.com/amartyaayushi2/web_chatApp#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
